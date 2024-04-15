@@ -13,6 +13,6 @@ int main(){
     for(int i = 0; i < num.size(); i++){
         cout<<num[i]<<" ";
     }
-    cout << endl;
+    
     return 0;
 }
