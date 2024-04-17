@@ -8,7 +8,7 @@ using namespace std;
 int main(){
     int arr[] = {2,5,1,7};
     vector<int>nums(begin(arr),end(arr));
-    int n = nums.size();.
+    int n = nums.size();
     sort(nums.begin(),nums.end());
     float mean = 0;
     if(nums.size() % 2 == 0){
