@@ -10,6 +10,11 @@ int main(){
     map<char,int>mp1;
     map<char,int>mp2;
 
+    if(str1.size() != str2.size()){
+        cout<<"False";
+        return 0;
+    }
+
     for(auto x : str1){
         mp1[x]++;
     }
