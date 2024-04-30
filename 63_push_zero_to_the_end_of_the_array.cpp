@@ -12,7 +12,7 @@ int main(){
     vector<int>res;
     for(int i = 0; i < n; i++){
         cin >> arr[i];
-        if(arr[i] != 0){
+        if(arr[i] != 0){    
             res.push_back(arr[i]);
         }
     }
